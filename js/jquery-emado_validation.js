@@ -53,7 +53,7 @@
                 $(this).keyup(nozzha_validate);
                 $(this).change(nozzha_validate);
                 $(this).blur(nozzha_validate);
-                // nozzha_validate(); -- best
+                // nozzha_validate(); -- later
             });
         };
     }(jQuery)); 
