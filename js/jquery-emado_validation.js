@@ -1,3 +1,11 @@
+/**
+ * Emad Omar
+ * emad2030@gmail.com
+ * @EmadOmar
+ * 
+ * @param {Test} $
+ */
+
 ( function($) {
         $.fn.nvalidate = function(_options) {
             var options = $.extend({
