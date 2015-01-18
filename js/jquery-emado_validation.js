@@ -32,7 +32,7 @@
                         }
                         break;
                     case 'float':
-                        var regex = /^\d*(\.\d*)?$/;
+                        var regex = /^[\-]?\d*(\.\d*)?$/;
 
                         if (! regex.test(val)) {
                             $(this).parent().addClass('has-error');
